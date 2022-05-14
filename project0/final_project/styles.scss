@@ -1,6 +1,50 @@
+@import "C:/Users/gbran/Desktop/documentos/scripts/Cursos/CSCI-S-33a/node_modules/scss/bootstrap";
+
 $hue: 15;
-$base-color: hsl(var(--hue) 36% 57%);
-$title-color: hsl(var(--hue) 41% 10%);
+$base-color: hsl($hue 36% 57%);
+$title-color: hsl($hue 41% 10%);
 $background-color: rgb(161, 161, 161);
+
+/*-----------navBar-----------*/
+
+a{
+    text-decoration: none;
+    color: black;
+    span{
+        color: $base-color;
+    }
+}
+
+a:hover, .bi.bi-list:hover{
+    color: $base-color;
+}
+
+/* bold logo */
+
+.navbar-brand{
+    font-weight: 1000;
+}
+
+#navbarContent{
+    justify-content: flex-end;
+}
+
+.nav-item{
+    @extend .me-0, .me-lg-3, .mb-1, .mb-lg-0;
+}
+
+.navbar.navbar-expand-lg.bg-light{
+    border-bottom: 1px solid #e4e4e4;
+}
+
+
+
+
+
+
+
+
+
+
 
 

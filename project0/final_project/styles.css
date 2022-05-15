@@ -592,7 +592,7 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
+.img-fluid, .carousel-inner img {
   max-width: 100%;
   height: auto;
 }
@@ -7067,7 +7067,7 @@ textarea.form-control-lg {
   vertical-align: top !important;
 }
 
-.align-middle {
+.align-middle, i.bi {
   vertical-align: middle !important;
 }
 
@@ -7139,7 +7139,7 @@ textarea.form-control-lg {
   display: inline-block !important;
 }
 
-.d-block {
+.d-block, .carousel-inner img {
   display: block !important;
 }
 
@@ -7404,7 +7404,7 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
-.w-100 {
+.w-100, .carousel-inner img {
   width: 100% !important;
 }
 
@@ -8290,7 +8290,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-light {
+.bg-light, form {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
@@ -11763,8 +11763,31 @@ a:hover, .bi.bi-list:hover {
   justify-content: flex-end;
 }
 
-.navbar.navbar-expand-lg.bg-light {
+.navbar.navbar-expand-lg.bg-light, form.navbar.navbar-expand-lg {
   border-bottom: 1px solid #e4e4e4;
+}
+
+.carousel-caption h3, .carousel-caption .h3 {
+  font-weight: bolder;
+}
+.carousel-caption p {
+  font-weight: bold;
+}
+
+#logInContainer {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  max-width: 350px;
+  margin: auto;
+  border: 1px solid lightgray;
+  padding: 1rem;
+}
+
+.right {
+  text-align: right;
 }
 
 /*# sourceMappingURL=styles.css.map */

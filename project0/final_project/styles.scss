@@ -37,8 +37,42 @@ a:hover, .bi.bi-list:hover{
     border-bottom: 1px solid #e4e4e4;
 }
 
+.carousel-inner{
+    img{
+        @extend .d-block, .img-fluid, .w-100;
+    }
+}
+
+.carousel-caption{
+    h3{
+        font-weight: bolder;
+    }
+    p{
+        font-weight: bold;
+    }
+}
 
 
+#logInContainer{
+    text-align: center
+}
+
+form{
+    @extend .bg-light;
+    width: 50%;
+    max-width: 350px;
+    margin: auto;
+    border: 1px solid lightgray;
+    padding: 1rem;
+}
+
+.right{
+    text-align: right;
+}
+
+i.bi{
+    @extend .align-middle;
+}
 
 
 

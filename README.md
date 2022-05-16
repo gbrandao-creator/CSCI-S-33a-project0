@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+# Welcome! This is my Harvard CSCI-S-33A course repo. 
 
-You can use the [editor on GitHub](https://github.com/gbrandao-creator/CSCI-S-33a/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Here I will have all projects, from 0 to 3 and the final project as well. I will also leave some tests and codes I've written during the course.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Project 0
 
-### Markdown
+In project0 directory you can find a simple website, developed using the concepts from Classes 0 and 1 - HTML5, CSS3 and Bootstrap framework. Please access https://gbrandao-creator.github.io/CSCI-S-33a/project0/final/index.html to take a look!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -22,16 +21,3 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gbrandao-creator/CSCI-S-33a/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
